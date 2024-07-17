@@ -1,0 +1,8 @@
+fog:
+  host: 127.0.0.1
+  port: 5000
+  blockchain_path: path
+  block_creation_interval: 8
+sequencer:
+  host: 127.0.0.1
+  port: 5005

@@ -1,0 +1,8 @@
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+PLS Blockchain purpose is to support a swarm of IoT devices, or things operating on the premises of a single administrative authority, for example a smart hospital. The use of a blockchain is for the purposes of audit trail, authentication and non-repudiation of all actors, both human and unmanned, including small, bare-metal microcontrollers that supply critical sensor data and those which drive actuators. 
+
+The utility of permissioned distributed ledger systems (permissioned blockchains, or PBCs for short) is based on two fundamentals: **(i)** distributed validity check of messages and **(ii)** an immutable, linearly-ordered ledger. In IoT applications, especially in sensor-networks, **(ii)** tends to be more important than **(i)**. Indeed, typically messages are not transactions in the financial sense, so checks such as double spending are not relevant; value checks are domain-specific and are best performed by smart contracts, which leaves the authenticity and provenance of each message posted on the ledger as the only general validity concerns. The PLS blockchain assures **(ii)** by employing Guy-Fawkes Protocols (GFPs) (Anderson et al. 1998). 
+
+A GFP is a post-quantum signature protocol based on an unlimited series of interlocking cryptographic hashes. GFP computations are fast, messages short and secrets neither moved nor kept for a long time; the GFPs are resistant to quantum computing as they do not use operations such as prime-number factorisation or discrete logarithm. Finally, by their recursive nature, GFPs define a single sequence of signatures that is very hard to split; this makes them quite suitable as a basis of a blockchain.
